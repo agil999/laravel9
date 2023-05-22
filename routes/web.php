@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::post('/hom', [OrderController::class, 'hom']);
 Route::get('/', [OrderController::class, 'index']);
+Route::get('/mobile-legend', [OrderController::class, 'ml'])->name('ml');
+
 Route::post('/checkout', [OrderController::class, 'checkout']);
 Route::get('/invoice/{id}', [OrderController::class, 'invoice']);

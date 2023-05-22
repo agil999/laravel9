@@ -10,6 +10,13 @@ class OrderController extends Controller
     public function index(){
         return view('home');
     }
+
+    public function hom(){
+        return view('hom');
+    }
+        public function ml(){
+            return view('mobile-legend');
+    }
     public function checkout(Request $request){
         $request->request->add(['total_price' => $request->qty * 10000, 'status' => 'Unpaid']);
         $order = Order::create($request->all());
@@ -32,6 +39,7 @@ class OrderController extends Controller
                 'first_name' => $request->name,
                 'last_name' => '',
                 'phone' => $request->phone,
+
             ),
         );
         
