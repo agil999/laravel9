@@ -601,6 +601,7 @@ Praesent vehicula et metus vel placerat. Donec consequat nunc eget augue rutrum 
           </div>
           <button type="submit"  class="btn btn-primary">Checkout</button>
                 </form>
+                </form>
 
          
           
@@ -623,10 +624,10 @@ Praesent vehicula et metus vel placerat. Donec consequat nunc eget augue rutrum 
  
                     <p class="panels diad mt-1 " id="myorders"><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp. 1.579</a></p>                  
                   </button>
-                  <button data-id="myorde" class=" d-flex button b-qris form-control mt-2 "><img src="https://cdn1.codashop.com/S/content/common/images/mno/GO_PAY_CHNL_LOGO.png" alt="Logo"   >                  
+                  <button class=" d-flex button b-qris form-control mt-2 "><img src="https://cdn1.codashop.com/S/content/common/images/mno/GO_PAY_CHNL_LOGO.png" alt="Logo"   >                  
                     
-                    <p class="panels diad mt-1 " id="11dm"><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp3.300</a></p>                  
-                    <p class="panels diad mt-1 " id="myorders"><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp. 1.579</a></p>                  
+                    <p class="panels diad mt-1 "><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp3.300</a></p>                  
+                    <p class="panels diad mt-1 " ><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp. 1.579</a></p>                  
                   </button>
                   <button data-id="myorde" class=" d-flex button b-qris form-control mt-2 "><img src="https://cdn1.codashop.com/S/content/common/images/mno/DANA_CHNL_LOGO.png" alt="Logo"   >                  
                     <p class="panels diad mt-1 " id="11dm"><a class="text-decoration-none fw-bold text-body-secondary">Harga</a><br><a class="text-decoration-none fw-bold text-dark">Rp3.300</a></p>                  
